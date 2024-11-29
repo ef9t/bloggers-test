@@ -1,34 +1,28 @@
+
 {
   "blogs": [
     {
-      "title": "Blog1.test.plssned.hepl",
+      "title": "An example blog",
       "date": "2024-01-15",
       "gistUrl": "https://gist.githubusercontent.com/ef9t/339647d43eebafaed3d997063edac235/raw/c7711e4699fa70268f4ca71f6338fc49959d82ad/blog1.md",
-      "slug": "serverless-blog-gists",
-      "excerpt": "Learn how to build a completely serverless blog using GitHub Gists as your CMS"
+      "slug": "an-example-blog",
+      "excerpt": "An example blog for GistBlog"
     },
     {
-      "title": "5 JavaScript Patterns You Should Know",
+      "title": "Important links",
       "date": "2024-01-10",
       "gistUrl": "https://gist.githubusercontent.com/yourusername/789012/raw",
-      "slug": "javascript-patterns",
-      "excerpt": "Essential JavaScript patterns for writing better code"
-    },
-    {
-      "title": "Getting Started with React Hooks",
-      "date": "2024-01-05",
-      "gistUrl": "https://gist.githubusercontent.com/yourusername/345678/raw",
-      "slug": "react-hooks-intro",
-      "excerpt": "A comprehensive guide to React Hooks"
+      "slug": "important-links,
+      "excerpt": "Important Links you need to learn GistBlog"
     }
   ],
   "author": {
-    "name": "John Doe",
+    "name": "Idaeyus",
     "avatar": "https://github.com/johndoe.png",
-    "bio": "Full-stack developer passionate about web technologies"
+    "bio": "An OSS collective"
   },
   "site": {
-    "title": "Code & Coffee",
-    "description": "Thoughts on web development and software engineering"
+    "title": "BlogGist",
+    "description": "A simple placeholder blog built with GistBlog"
   }
 }
