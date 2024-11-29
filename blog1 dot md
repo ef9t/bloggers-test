@@ -1,50 +1,8 @@
-# Building a Serverless Blog with GitHub Gists
 
-GitHub Gists are typically used for sharing code snippets, but they can be much more powerful. In this post, I'll show you how to build a completely serverless blog using Gists as your content management system.
+#   
+#  
+# This is an example of a blog made using [GistBlog](tab:https://www.idaeyus.github.io/GistBlog)
 
-## Why Gists?
-
-- Version control built-in
-- Markdown support
-- Raw file access
-- Free hosting
-- API access
-
-## Implementation
-
-First, we need a master JSON file that acts as our content index. This lives in a Gist and contains metadata about all our posts:
-
-```json
-{
-  "blogs": [
-    {
-      "title": "Building a Serverless Blog with GitHub Gists",
-      "date": "2024-01-15",
-      "gistUrl": "https://gist.githubusercontent.com/yourusername/123456/raw",
-      "slug": "serverless-blog-gists"
-    }
-  ]
-}
-```
-
-## The Architecture
-
-1. Store blog posts as markdown files in individual Gists
-2. Create a master JSON file with post metadata
-3. Build a static frontend that fetches and renders content
-
-## Code Example
-
-Here's how to fetch and render a Gist:
-
-```javascript
-async function fetchPost(url) {
-  const response = await fetch(url);
-  const markdown = await response.text();
-  return marked.parse(markdown);
-}
-```
-
-## Benefits
-
-This architecture is extremely scalable and requires zero maintenance. Since GitHub handles all the hosting and version control, you can focus entirely on writing content.
+* ##  We use markdown to write the blogs
+* ##  We use JSON to connect the blogs
+* ##  We use GitHub (tm) Gists to host the blogs 
