@@ -24,6 +24,9 @@
             line-height: 1.6;
             color: var(--text);
             background: var(--bg);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
 
         nav {
@@ -111,6 +114,22 @@
             text-align: center;
             margin-top: 2rem;
         }
+
+        footer {
+            margin-top: auto;
+            padding: 1rem;
+            text-align: center;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -123,6 +142,10 @@
     <main class="container" id="main">
         Loading...
     </main>
+
+    <footer>
+        <a href="https://github.com/idaeyus/GistBlog">Made with GistBlog</a>
+    </footer>
 
     <script>
         const MASTER_JSON_URL = 'https://gist.githubusercontent.com/ef9t/36d2bab57608c69514137f66fd8dc8b8/raw/825491faa423fa25fca7d856adeb1cb3d0844db6/blogs.json';
